@@ -70,7 +70,7 @@ a:hover {
 .nav ul {
     float: right;
     padding-right: 15%;
-    letter-spacing: 0.1em
+    letter-spacing: 0.1em;
 }
 
 ul li a {
@@ -85,7 +85,6 @@ ul li a {
 
 .nav ul li {
     margin-top: 10px;
-    display: inline-block;
     position: relative;
 }
 
@@ -158,3 +157,9 @@ ul li a {
 .PERFORMANCE{background: url("img/PERFORMANCE.png") no-repeat left 44%;padding: 20px 60px;margin-left: 7%}
 .SAFETY{background: url("img/SAFETY.png") no-repeat left 44%;padding: 20px 0;margin-left: 6%}
 .HYGIENE{background: url("img/HYGIENE.png") no-repeat left 44%;padding: 20px 0;margin-left: 6%}
+/*_________________________________________________________GAME-CHANGER____________________________________*/
+.left-block{float: left;padding: 2% 10.5%}
+.GAME {font-weight: bold;font-size: 3em;color: #4f8aff;letter-spacing: 0.1em;}
+.SWEAT {letter-spacing: 0.25em;}
+.Keeps{text-transform: uppercase;padding-top: 35px}
+.Reduces{text-transform: uppercase;}
