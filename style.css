@@ -63,7 +63,7 @@ a:hover {
 
 /*_________________________________________________________логотип-навигация____________________________________*/
 .logo-nav {
-    padding: 4% 85px;position: absolute;
+    padding: 67px 85px;position: absolute;right: 0;    left: 0;    z-index: 99;
 }
 .logo{padding: 0 85px;
      background: rgba(15, 118, 255, 0.7);
@@ -71,22 +71,19 @@ a:hover {
      right: 0;
      left: 0;
      z-index: 99;}
-.logo-nav nav ul li{display: inline-block;color: white;
-    padding: 0px 13px;    font-weight: bold;float: right}
-.nav ul {
-    float: right;
-    padding-right: 15%;
-    letter-spacing: 0.1em;
+.logo-nav nav ul li{display: inline-block;color: white;  padding-top: 15px;padding-left: 25px; font-weight: bold;}
+
+.menu ul  {
+    float: right;padding-right: 16.5%;
 }
 
-ul li a {
+/*ul li a {
     padding: 20px 14px 16px;
-}
+}*/
 
-.nav li a {
-    color: white;
-    padding: 0px 13px;
-    font-weight: bold;
+.menu li a {
+    color: #ffffff;
+    font-weight: bold;letter-spacing: 0.1em;
 }
 /*
 .nav ul li {
@@ -98,7 +95,9 @@ ul li a {
 .buy {
     float: right;
     cursor: pointer;
-   /* line-height: 5;*/
+    line-height: 4;
+    position: absolute;
+    padding-left: 80%;
 }
 
 /*_________________________________________________________СЛАЙДЕР____________________________________*/
