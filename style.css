@@ -174,5 +174,11 @@ a:hover {
 .hundred{padding: 11% 0% 0% 12%;}
 .used{text-transform: uppercase;font-weight: bold;font-size: 3em;color: #194cff;letter-spacing: 0.08em;padding: 1.5% 0 0 33.5%}
 /*.video{float: right}*/
-.tm{padding: 2.3% 0 0 20.5%}
+.tm{padding: 2.3% 0 15% 20.5%}
+/*________________________________________________________nosweatco____________________________________*/
+.gallery {background: url("img/men.png") right/cover no-repeat;
+    height: 900px;    position: relative;}
+.foto img{padding: 5px}
+.foto{padding: 10% 23%}
+.gallery span{text-align: center}
 
