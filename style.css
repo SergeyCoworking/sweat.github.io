@@ -179,6 +179,6 @@ a:hover {
 .gallery {background: url("img/men.png") right/cover no-repeat;
     height: 900px;    position: relative;}
 .foto img{padding: 5px}
-.foto{padding: 10% 23%}
-.gallery span{text-align: center}
-
+.foto{padding: 15px 23%}
+.gallery span{padding:30% 35% 0 36%;color: white;font-weight: bold;text-transform: uppercase;font-size: 2em;}
+.icon {padding:7% 2% 0% 48.5%}
