@@ -176,9 +176,11 @@ a:hover {
 /*.video{float: right}*/
 .tm{padding: 2.3% 0 15% 20.5%}
 /*________________________________________________________nosweatco____________________________________*/
-.gallery {background: url("img/men.png") right/cover no-repeat;
-    height: 900px;    position: relative;}
+.gallery {background: url("img/men.png") right/cover no-repeat;    height: 900px;    position: relative;}
 .foto img{padding: 5px}
 .foto{padding: 15px 23%}
 .gallery span{padding:30% 35% 0 36%;color: white;font-weight: bold;text-transform: uppercase;font-size: 2em;}
 .icon {padding:7% 2% 0% 48.5%}
+/*________________________________________________________buy-now____________________________________*/
+.buy-now{padding: 5% 0 0 0}
+.buy-now img{padding-left: 17px}
