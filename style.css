@@ -122,6 +122,7 @@ a:hover {
     justify-content: center;
 }
 .slider-content img{padding: 9% 0 0 15%}
+.DISPOSABLE{position: relative; left: 25%}
 .absorbing {
     width: 70%;
 }
@@ -182,5 +183,52 @@ a:hover {
 .gallery span{padding:30% 35% 0 36%;color: white;font-weight: bold;text-transform: uppercase;font-size: 2em;}
 .icon {padding:7% 2% 0% 48.5%}
 /*________________________________________________________buy-now____________________________________*/
-.buy-now{padding: 5% 0 0 0}
+.buy-now{padding: 1% 0 0 0}
 .buy-now img{padding-left: 17px}
+/*.buy-now div{padding: 1% 17px;background: rgba(31, 56, 255, 0.7);position: absolute;right: 0;left: 0;z-index: 99;
+    text-transform: uppercase;}*/
+.buttom{position: absolute;bottom: 3%;left: 15%;background: rgba(31, 56, 255, 0.9);z-index: 99;}
+.buttom span{padding: 85%;position: absolute;right: 80%;left: 8%;z-index: 99;top: 0%;background: rgba(31, 56, 255, 0.7);}
+/*________________________________________________________vid____________________________________*/
+/*.vid{height: 100%}*/
+/*________________________________________________________text____________________________________*/
+.text{text-transform: uppercase;font-weight: bold;font-size: 3em;color: #1423ff;letter-spacing: 0.08em;padding: 1.5% 0 0 27%}
+.tmm{padding: 7% 0 10% 20.5%}
+
+/*________________________________________________________vid____________________________________*/
+footer {padding: 0 0 0 20%;background-color: #4f8aff;}
+.footer div{float: left; /*Задаем обтекание*/
+    /*line-height: 60px;Высота строки +  верт. центрирования текста*/
+    font-size: 15px;    background: dodgerblue;    color: white;    margin-top: 20px;    margin-right: 10px;
+    margin-bottom: 40px;    margin-left: 0%;    padding-right: 45px;    /* width: 320px; Фиксируем ширину блока*/
+    text-align: left; /*Центрируем текст по горизонтали*/}.center{line-height: 2.5;border-bottom: solid 1px;}
+.center{position: relative;bottom: 6px;}
+.right{position: relative;bottom: 18px;}
+.right-bottom{position: relative;bottom: 55px;font-size: 15px;}
+.phone{position: relative;bottom: 55px;font-size: 15px;}
+.EMAIL{position: relative;bottom: 55px;font-size: 15px;}
+.border{border-bottom: solid 1px;}
+.adress{position: relative;bottom: 25px;}
+.social li{display: inline-block;position: relative;;bottom: 45px;}
+
+/*
+.footer div{display: inline-block}
+.left{padding: 0% 0 0% 0%;color: white}
+.center{padding: 0 0 0% 10%;color: white}
+.right{padding: 0 0% 0% 60%;color: white}*/
+/*
+.foo {
+    width: 503px;
+    height: 310px;
+    background: url('http://vmuseum.ucoz.ru/img/tel.png') no-repeat;
+    position: relative;
+}
+.foo .bar {
+    background: #fdd;
+    height: 220px;
+    width: 310px;
+    position: absolute;
+    left: 45px;
+    top: 43px;
+}
+*/
