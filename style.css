@@ -234,7 +234,6 @@ hr {margin-bottom: 15px;
 @media screen and (max-width: 1843px){
     .tech-features{padding: 40px 35px;}
     .now1{margin-left: 16%}
-    .now2{}
     .now3{margin-left: 32%}
 }
 @media screen and (max-width: 1828px){
@@ -246,6 +245,17 @@ hr {margin-bottom: 15px;
 @media screen and (max-width: 1713px){
     .vimeo{position: absolute;top: 75em;left: 40%}
     .safety-block div{margin-left: 3%}
+}
+@media screen and (max-width: 1683px){
+    .foto{padding: 15px 15%;padding-left: 20%}
+}
+@media screen and (max-width: 1603px){
+    footer{padding-left: 10%}
+    .buy{padding-left: 85%}
+    .menu{padding-left: 15%}
+    .DISPOSABLE {        position: relative;        left: 17%;}
+    .foto{padding: 15px 10%;padding-left: 17%}
+    .now1{margin-left: 11%}
 }
 /*
 .foo {
