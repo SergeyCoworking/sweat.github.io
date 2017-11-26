@@ -244,7 +244,8 @@ hr {margin-bottom: 15px;
     .tech-features div{display: block;margin-left: 10%;float: left}
 }
 @media screen and (max-width: 1713px){
-    
+    .vimeo{position: absolute;top: 75em;left: 40%}
+    .safety-block div{margin-left: 3%}
 }
 /*
 .foo {
