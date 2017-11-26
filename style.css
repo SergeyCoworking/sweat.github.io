@@ -197,14 +197,13 @@ a:hover {
 /*________________________________________________________text____________________________________*/
 .text{text-transform: uppercase;font-weight: bold;font-size: 3em;color: #1423ff;letter-spacing: 0.08em;padding: 1.5% 0 0 27%}
 .tmm{padding: 7% 0 10% 20.5%}
-
 /*________________________________________________________vid____________________________________*/
 footer {padding: 0 0 0 20%;background-color: #4f8aff;}
 .footer div{float: left; /*Задаем обтекание*/
     /*line-height: 60px;Высота строки +  верт. центрирования текста*/
     font-size: 15px;    /*background: dodgerblue; */   color: white;    margin-top: 20px;    margin-right: 10px;
     margin-bottom: 40px;    margin-left: 0%;    padding-right: 45px;    /* width: 320px; Фиксируем ширину блока*/
-    text-align: left; /*Центрируем текст по горизонтали*/}.center{line-height: 2.5;border-bottom: solid 1px;}
+    text-align: left; /*Центрируем текст по горизонтали*/}.center{line-height: 2.5;}
 .center{position: relative;bottom: 6px;}
 .right{position: relative;bottom: 18px;}
 .right-bottom{position: relative;bottom: 55px;font-size: 15px;}
@@ -221,14 +220,32 @@ hr {margin-bottom: 15px;
 .facebook{color: white;position: relative;left: 35%;bottom: 1.5em}
 .linkedin{position: relative;left: 33em;bottom: 1.5em}
 .twitter{position: relative;left: 31em;bottom: 1.5em}
-
-/*.social li{display: inline-block;position: relative}*/
-
-/*
-.footer div{display: inline-block}
-.left{padding: 0% 0 0% 0%;color: white}
-.center{padding: 0 0 0% 10%;color: white}
-.right{padding: 0 0% 0% 60%;color: white}*/
+/*_____________________________________________________________________________RESPONSIV________________________*/
+@media screen and (max-width: 1883px){
+    .tech-features{padding: 40px 45px;}
+    .foto{padding: 15px 20%}
+    .buy-now{padding: 1% 0 0 1%}
+    .buy-now img{padding-left: 0}
+}
+@media screen and (max-width: 1838px){
+    .tech-features{padding: 40px 40px;}
+    .buy-now{padding: 1% 0 0 0}
+}
+@media screen and (max-width: 1843px){
+    .tech-features{padding: 40px 35px;}
+    .now1{margin-left: 16%}
+    .now2{}
+    .now3{margin-left: 32%}
+}
+@media screen and (max-width: 1828px){
+    .tech-features{padding: 40px 15px;}
+}
+@media screen and (max-width: 1783px){
+    .tech-features div{display: block;margin-left: 10%;float: left}
+}
+@media screen and (max-width: 1713px){
+    
+}
 /*
 .foo {
     width: 503px;
