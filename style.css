@@ -131,7 +131,7 @@ a:hover {
     font-size: 2.5em
 }
 .arrows {
-    font-size: 50px;
+    font-size: 25px;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -139,12 +139,12 @@ a:hover {
     cursor: pointer;
 }
 
-.arrow-left {
-    left: 20px;
+.arrow-left {top: 24em;
+    left: 45em;
 }
 
-.arrow-right {
-    right: 20px;
+.arrow-right {top: 24em;
+    right: 13em;
 }
 /*_________________________________________________________tech features____________________________________*/
 .tech-features{padding: 40px 65px}
