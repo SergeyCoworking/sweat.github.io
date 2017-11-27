@@ -258,7 +258,7 @@ hr {margin-bottom: 15px;
     .now1{margin-left: 11%}
 }
 @media screen and (max-width: 1418px){
-    .vimeo{position: absolute;top: 85em;left: 38%}
+    .vimeo{position: absolute;top: 92em;left: 38%}
     .arrow-left {top: 25em;        left: 43em;    }
     .arrow-right {top: 25em;        right: 9em;    }
     .used{padding-left: 25%}
@@ -271,6 +271,9 @@ hr {margin-bottom: 15px;
 .center{position: relative;left: 35%}
 .linkedin{position: relative;left: 28em}
     .twitter{position: relative;left: 26em;}
+    .safety-block div{margin-left: 0}
+    .tech-features div{margin-left: 35%}
+    
 }
 /*
 .foo {
